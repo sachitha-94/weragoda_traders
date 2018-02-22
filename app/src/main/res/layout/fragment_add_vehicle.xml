@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.androidhive.navigationdrawer.fragment.HomeFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TableRow android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vehicle ID :  "
+        android:layout_gravity="left|top"
+        android:textSize="30dp" />
+    <EditText
+        android:layout_height="match_parent"
+        android:layout_width="210dp"
+        android:id="@+id/vidEditText"
+        />
+</TableRow>
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Manufacture :  "
+            android:layout_gravity="left|top"
+            android:textSize="30dp" />
+        <EditText
+            android:layout_height="match_parent"
+            android:layout_width="200dp"
+            android:id="@+id/manufactureEditText"
+            />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Type :  "
+            android:layout_gravity="left|top"
+            android:textSize="30dp" />
+        <EditText
+            android:layout_height="match_parent"
+            android:layout_width="200dp"
+            android:id="@+id/typeEditText"
+            />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Engine Capacity :  "
+            android:layout_gravity="left|top"
+            android:textSize="30dp" />
+        <EditText
+            android:layout_height="match_parent"
+            android:layout_width="200dp"
+            android:id="@+id/eng_capacityEditText"
+            />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Price :  "
+            android:layout_gravity="left|top"
+            android:textSize="30dp" />
+        <EditText
+            android:layout_height="match_parent"
+            android:layout_width="200dp"
+            android:id="@+id/priceEditText"
+            />
+    </TableRow>
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_height="100dp"
+            android:layout_width="200dp"
+            android:text="save"
+            />
+
+
+</LinearLayout>
+
+</RelativeLayout>
